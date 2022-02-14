@@ -124,7 +124,7 @@ public class Main {
 		//System.out.printf("Entrada :\n" +value + "\n" + value2 + "\nSoma :\n" + soma);
 		System.out.printf("Entrada:\n%d\n%d\nSoma:\n%d", value, value2, soma);*/
 		
-		Scanner sc1 = new Scanner(System.in);
+		/*Scanner sc1 = new Scanner(System.in);
 		
 		double raio ;
 		double pi = 3.14159 ;
@@ -134,7 +134,143 @@ public class Main {
 		
 		resultado = (pi*raio*raio) ;
 		
-		System.out.printf("Entrada:\n%.2f\nResultado:\n%.4f", raio, resultado);
+		System.out.printf("Entrada:\n%.2f\nResultado:\n%.4f", raio, resultado);*/
+		
+		
+		/*Scanner s = new Scanner(System.in);
+		
+		int A,B,C,D,R;
+		
+		A = s.nextInt();
+		B = s.nextInt();
+		C = s.nextInt();
+		D = s.nextInt();
+		
+		R = (A*B)-(C*D);
+		
+		System.out.printf("Resultado:\n%d", R);*/
+		
+		/*Scanner s = new Scanner(System.in);
+		
+		int numero, horas;
+	    double valorHora, salario;
+
+	    numero = s.nextInt();
+	    horas = s.nextInt();
+	    valorHora = s.nextDouble();
+
+	    salario = valorHora * horas;
+
+	    System.out.println("NUMBER = " + numero);
+	    System.out.printf("SALARY = U$ %.2f%n", salario);
+		
+		s.close();*/
+		
+		
+		/*Scanner s = new Scanner(System.in);
+		
+		int peca1, peca2, quantpeca1,quantpeca2;
+		double valor, valorpeca1, valorpeca2;
+		
+		peca1 = s.nextInt();
+		quantpeca1 = s.nextInt();
+		valorpeca1 = s.nextDouble();
+		
+		peca2 = s.nextInt();
+		quantpeca2 = s.nextInt();
+		valorpeca2 = s.nextDouble();
+		
+		valor = (double)(quantpeca1 * valorpeca1)+(quantpeca2 * valorpeca2) ;
+		
+		System.out.printf("Total da compra:\n$ %.2f",valor);*/
+		
+		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~If - Else
+		
+		
+		/*Scanner sc = new Scanner(System.in);
+
+		int N = sc.nextInt();
+	    
+		if (N % 2 == 0) {
+			System.out.println("PAR");
+		}
+		else {
+			System.out.println("IMPAR");
+		}*/
+		
+		/*Scanner sc = new Scanner(System.in);
+		
+		int value = sc.nextInt();
+		
+		if(value < 3 ) {
+			
+			System.out.println("Num. Menor que 3.");
+			
+		}else {
+			
+			System.out.println("Num. Maior que 3.");
+			
+		}*/
+		
+		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Switch
+		
+		/*Scanner sc = new Scanner(System.in);
+			int x = sc.nextInt();
+			String dia;
+			switch (x) {
+			case 1:
+				dia = "domingo";
+			break;
+			case 2:
+				dia = "segunda";
+				break;
+			case 3:
+				dia = "terca";
+				break;
+			case 4:
+				dia = "quarta";
+				break;
+			case 5:
+				dia = "quinta";
+				break;
+			case 6:
+				dia = "sexta";
+				break;
+			case 7:
+				dia = "sabado";
+				break;
+			default:
+				dia = "valor invalido";
+				break;
+			}
+			System.out.println("Dia da semana: " + dia);*/
+		
+		//~~~~~~~~~~~~~~~~~~~~~~~~Condicional Ternaria
+		
+		/*double preco = 34.5;
+		double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05 ;
+		
+		System.out.println(desconto);*/
+		
+		//~~~~~~~~~~~~~~~~~While
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int Num = sc.nextInt();
+		int i =0;
+	
+		while(Num != 0 ) {
+		
+			// i+= Num | Significa i = i +Num
+			
+			i += Num;
+			Num = sc.nextInt();
+		
+		}
+		
+		System.out.println(i);
+		
+		sc.close();
 		
 		
 
