@@ -254,7 +254,7 @@ public class Main {
 		
 		//~~~~~~~~~~~~~~~~~While
 		
-		Scanner sc = new Scanner(System.in);
+		/*Scanner sc = new Scanner(System.in);
 		
 		int Num = sc.nextInt();
 		int i =0;
@@ -270,10 +270,86 @@ public class Main {
 		
 		System.out.println(i);
 		
-		sc.close();
+		sc.close();*/
 		
-		
+		//~~~~~~~~~~~~~~~~~~~~~~~~~For
 
+		
+		/*Scanner sc = new Scanner(System.in);
+		
+		int x = sc.nextInt();
+		
+		
+		for(int i =1; i < x; i++) {
+			
+			
+			if(i % 2 != 0) {
+			
+				System.out.println(i);
+				
+			}
+		
+		}*/
+		
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Do-While
+		
+		
+	/*	Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite a temperatura em C°");
+		
+		
+		
+		char resp;
+		do {
+			
+			double cls = sc.nextInt();
+			double F = cls * 1.8 +32;
+			System.out.printf("Em Fahrenheit: %.1f\n" , F);
+			System.out.print("Deseja calcular novamente?(s/n)");
+			resp = sc.next().charAt(0);
+			
+		}while(resp != 'n');
+		
+		sc.close();
+		*/
+
+		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Strings
+		/*String original = "asadjibhda FASFbcYAS ABC abc DEFG    ";
+		
+		String s01 = original.toLowerCase();
+		String s02 = original.toUpperCase();
+		String s03 = original.trim();
+		String s04 = original.substring(2);
+		String s05 = original.substring(2, 9);
+		String s06 = original.replace('a', 'x');
+		String s07 = original.replace("abc", "xy");
+		int i = original.indexOf("bc");
+		int j = original.lastIndexOf("bc");
+		
+		
+		System.out.println("Original : "+ original+"-");
+		System.out.println("toLowerCase : "+s01+"-");
+		System.out.println("toUpperCase : "+s02+"-");
+		System.out.println("trim : "+s03+"-");
+		System.out.println("substring : "+s04+"-");
+		System.out.println("replace ('a' por 'x') : "+s06+"-");
+		System.out.println("replace ('abc' por 'xy') : "+s07+"-");
+		System.out.println("Index of 'bc') : "+i);
+		System.out.println("Last Index of 'bc') : "+j);*/
+
+		/*String s = "potato apple lemon orange";
+		String[] vect = s.split(" ");
+		
+		System.out.println(vect [0]);
+		System.out.println(vect [1]);
+		System.out.println(vect [2]);
+		System.out.println(vect [3]);*/
+
+
+		
 	}
 
+	
+	
 }
